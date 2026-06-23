@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg ,rgb(26, 50, 115), rgb(47, 147, 164));
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: "PT Sans", sans-serif;
+}
+
+.form-control,
+.card{
+    background-color: rgba(255, 255, 255, 0.068);
+    border: none;
+}
+
+.card{
+    color: white;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.288);
+}
+
+.saldo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header{
+    height: 8vh;
+    padding: 10px;
+}
+
+main{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 5vh;
+}
+
+@media (max-width: 767px){
+    #menu{
+        height: 100%;
+        padding: 50px 0;
+    }
+}
